@@ -5,3 +5,8 @@ def is_prime_number(x):
             return
     print("The number {num1} is a prime number.".format(num1=x))
 
+def print_hello():
+    print("Hello World!!")
+
+if __name__ == '__main__':
+    print_hello()
